@@ -1,9 +1,7 @@
 # NTIPA-CONSUMER-VERSION 0.0.1
-FROM      ubuntu:12.04
+FROM ubuntu:trusty
 MAINTAINER Tindaro Tornabene <tindaro.tornabene@gmail.com>
 RUN apt-get update
-RUN apt-get -y upgrade
-RUN apt-get -y dist-upgrade
 RUN apt-get -y -q  install  python-software-properties software-properties-common
 RUN apt-get -y install openssh-server && mkdir /var/run/sshd
 RUN apt-get -y install vim git zip bzip2 fontconfig curl
