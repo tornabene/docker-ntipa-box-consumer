@@ -14,7 +14,7 @@ RUN apt-get -y install build-essential
 RUN apt-get -y install checkinstall
 RUN apt-get -y install autoconf automake libtool
 RUN apt-get -y install libjpeg62-dev
-RUN apt-get -y install libtiff4
+RUN apt-get -y install libtiff5
 RUN apt-get -y install tesseract-ocr-ita
 RUN apt-get -y install libhocr0
 RUN apt-get -y install ruby
